@@ -18,7 +18,7 @@ func RegisterUser(user models.User) (int, error) {
 
 	query := `INSERT INTO users (username, age, gender, email, password) VALUES (?, ?, ?, ?, ?)`
 
-	result, err := database.Db.Exec(query, user.Username, user.Age, user.Gender,  user.Email, string(cryptedPassword))
+	result, err := database.Db.Exec(query, user.Username, user.Age, user.Gender, user.Email, string(cryptedPassword))
 	if err != nil {
 		return 0, err
 	}
