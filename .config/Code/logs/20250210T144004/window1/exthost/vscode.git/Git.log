@@ -1,0 +1,79 @@
+2025-02-10 14:40:07.433 [info] [main] Log level: Info
+2025-02-10 14:40:07.433 [info] [main] Validating found git in: "git"
+2025-02-10 14:40:07.433 [info] [main] Using git "2.43.0" from "git"
+2025-02-10 14:40:07.433 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-10 14:40:07.433 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-10 14:40:07.433 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2025-02-10 14:40:07.433 [info] [Model][openRepository] Opened repository: /home/imad-07/realtimeforum
+2025-02-10 14:40:07.448 [info] > git config --get commit.template [7ms]
+2025-02-10 14:40:07.451 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-10 14:40:07.463 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-10 14:40:07.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/imad-07 refs/remotes/imad-07 [8ms]
+2025-02-10 14:40:07.477 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-10 14:40:07.479 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-10 14:40:07.490 [info] > git status -z -uall [6ms]
+2025-02-10 14:40:07.492 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-10 14:40:07.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/imad-07 refs/remotes/imad-07 [9ms]
+2025-02-10 14:40:07.522 [info] > git config --local branch.imad-07.vscode-merge-base [3ms]
+2025-02-10 14:40:07.528 [info] > git config --get commit.template [16ms]
+2025-02-10 14:40:07.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/imad-07 refs/remotes/origin/imad-07 [2ms]
+2025-02-10 14:40:07.549 [info] > git merge-base refs/heads/imad-07 refs/remotes/origin/imad-07 [15ms]
+2025-02-10 14:40:07.580 [info] > git diff --name-status -z --diff-filter=ADMR da982b4298b80f97ffe0897093d43e766bbad7a0...refs/remotes/origin/imad-07 [26ms]
+2025-02-10 14:40:07.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/imad-07 refs/remotes/imad-07 [33ms]
+2025-02-10 14:40:07.607 [info] > git status -z -uall [5ms]
+2025-02-10 14:40:07.649 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [44ms]
+2025-02-10 14:40:07.750 [info] > git show --textconv :dockerfile [14ms]
+2025-02-10 14:40:07.755 [info] > git ls-files --stage -- /home/imad-07/realtimeforum/dockerfile [5ms]
+2025-02-10 14:40:07.767 [info] > git cat-file -s 3835109816a8826e5649cd21a82c8bc332e5ec9d [3ms]
+2025-02-10 14:40:07.971 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-10 14:40:23.742 [info] [main] Log level: Info
+2025-02-10 14:40:23.742 [info] [main] Validating found git in: "git"
+2025-02-10 14:40:23.742 [info] [main] Using git "2.43.0" from "git"
+2025-02-10 14:40:23.742 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-10 14:40:23.742 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-10 14:40:23.748 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-10 14:40:23.757 [info] [Model][openRepository] Opened repository: /home/imad-07
+2025-02-10 14:40:23.760 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-10 14:40:24.185 [info] > git config --get commit.template [418ms]
+2025-02-10 14:40:24.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-02-10 14:40:24.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-02-10 14:40:24.797 [info] > git status -z -uall [511ms] (cancelled)
+2025-02-10 14:40:28.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-10 14:40:28.861 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-02-10 14:40:28.861 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-10 14:40:28.867 [info] > git config --get commit.template [18ms]
+2025-02-10 14:40:28.905 [info] > git reflog main --grep-reflog=branch: Created from *. [38ms]
+2025-02-10 14:40:29.484 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [575ms]
+2025-02-10 14:40:29.484 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-10 14:40:29.484 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-10 14:40:29.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [585ms]
+2025-02-10 14:40:29.512 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-10 14:40:29.832 [info] > git status -z -uall [335ms] (cancelled)
+2025-02-10 14:43:25.026 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-10 14:44:25.113 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-10 14:52:28.508 [info] [main] Log level: Info
+2025-02-10 14:52:28.508 [info] [main] Validating found git in: "git"
+2025-02-10 14:52:28.508 [info] [main] Using git "2.43.0" from "git"
+2025-02-10 14:52:28.508 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-10 14:52:28.508 [info] > git rev-parse --show-toplevel [396ms]
+2025-02-10 14:52:28.509 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-10 14:52:28.517 [info] [Model][openRepository] Opened repository: /home/imad-07
+2025-02-10 14:52:28.520 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-10 14:52:28.542 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-10 14:52:28.543 [info] > git config --get commit.template [16ms]
+2025-02-10 14:52:28.584 [info] > git rev-parse --show-toplevel [22ms]
+2025-02-10 14:52:28.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-10 14:52:28.600 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-10 14:52:28.723 [info] > git status -z -uall [132ms] (cancelled)
+2025-02-10 14:52:33.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-10 14:52:33.013 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-02-10 14:52:33.013 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-10 14:52:33.018 [info] > git config --get commit.template [16ms]
+2025-02-10 14:52:33.044 [info] > git reflog main --grep-reflog=branch: Created from *. [26ms]
+2025-02-10 14:52:33.729 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [677ms]
+2025-02-10 14:52:33.729 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-10 14:52:33.729 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-10 14:52:33.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [689ms]
+2025-02-10 14:52:33.779 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-02-10 14:52:34.009 [info] > git status -z -uall [265ms] (cancelled)
+2025-02-10 15:14:04.342 [info] > git check-ignore -v -z --stdin [1ms]

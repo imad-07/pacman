@@ -1,0 +1,10 @@
+FROM golang:1.23.4
+
+LABEL Project_Name="Forum"
+WORKDIR /forum
+COPY . .
+EXPOSE 8081
+WORKDIR /forum/server
+RUN go build
+
+CMD ["./server"]

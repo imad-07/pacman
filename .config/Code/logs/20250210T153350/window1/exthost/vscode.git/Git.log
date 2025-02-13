@@ -1,0 +1,23 @@
+2025-02-10 15:33:53.112 [info] [main] Log level: Info
+2025-02-10 15:33:53.112 [info] [main] Validating found git in: "git"
+2025-02-10 15:33:53.112 [info] [main] Using git "2.43.0" from "git"
+2025-02-10 15:33:53.112 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-10 15:33:53.112 [info] > git rev-parse --show-toplevel [19ms]
+2025-02-10 15:33:53.112 [info] > git rev-parse --git-dir --git-common-dir [379ms]
+2025-02-10 15:33:53.112 [info] [Model][openRepository] Opened repository: /home/imad-07
+2025-02-10 15:33:53.112 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-10 15:33:53.112 [info] > git config --get commit.template [7ms]
+2025-02-10 15:33:53.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-02-10 15:33:53.113 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-10 15:33:53.197 [info] > git status -z -uall [102ms] (cancelled)
+2025-02-10 15:34:25.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-02-10 15:34:26.163 [info] > git config --local branch.main.vscode-merge-base [463ms]
+2025-02-10 15:34:26.163 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-10 15:34:26.177 [info] > git config --get commit.template [484ms]
+2025-02-10 15:34:26.192 [info] > git reflog main --grep-reflog=branch: Created from *. [15ms]
+2025-02-10 15:34:26.202 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-02-10 15:34:26.202 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-10 15:34:26.202 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-10 15:34:26.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-10 15:34:26.235 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-10 15:34:26.478 [info] > git status -z -uall [259ms] (cancelled)

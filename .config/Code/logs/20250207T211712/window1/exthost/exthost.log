@@ -1,0 +1,996 @@
+2025-02-07 21:17:15.318 [info] Extension host with pid 3644 started
+2025-02-07 21:17:15.318 [info] Skipping acquiring lock for /home/imad-07/.config/Code/User/workspaceStorage/482217415a4c4df8311a1668ffe98a13.
+2025-02-07 21:17:15.693 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-07 21:17:15.732 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-02-07 21:17:16.472 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-07 21:17:16.482 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-02-07 21:17:16.540 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-07 21:17:16.660 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-07 21:17:16.742 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-07 21:17:16.773 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at y.onDidChangeRepositories (/usr/share/code/resources/app/extensions/git/dist/main.js:2:967998)
+	at new y (/usr/share/code/resources/app/extensions/git/dist/main.js:2:967624)
+	at new b (/usr/share/code/resources/app/extensions/git/dist/main.js:2:971573)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961760)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at w.onDidChangeRepositories (/usr/share/code/resources/app/extensions/git/dist/main.js:2:968594)
+	at new w (/usr/share/code/resources/app/extensions/git/dist/main.js:2:968212)
+	at new b (/usr/share/code/resources/app/extensions/git/dist/main.js:2:971614)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961760)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at v.onDidChangeRepositories (/usr/share/code/resources/app/extensions/git/dist/main.js:2:969131)
+	at new v (/usr/share/code/resources/app/extensions/git/dist/main.js:2:968786)
+	at new b (/usr/share/code/resources/app/extensions/git/dist/main.js:2:971655)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961760)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at b.setState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:969483)
+	at new b (/usr/share/code/resources/app/extensions/git/dist/main.js:2:972248)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961760)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at O (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961845)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961991)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at I (/usr/share/code/resources/app/extensions/git/dist/main.js:2:963882)
+	at async M (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964882)
+	at async t.activate (/usr/share/code/resources/app/extensions/git/dist/main.js:2:960322)
+	at async B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3866) setContext undefined
+2025-02-07 21:17:16.774 [info] Eager extensions activated
+2025-02-07 21:17:16.775 [error] Activating extension vscode.debug-auto-launch failed due to an error:
+2025-02-07 21:17:16.775 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at z_.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9402)
+	at B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4460)
+	at B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4421)
+	at B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3877)
+	at new B0 (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3804)
+	at H0.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3366)
+	at H0.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3321)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2292
+	at Array.map (<anonymous>)
+	at H0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2280)
+	at H0.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2192)
+	at z_.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10628)
+	at z_.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15414)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16058
+2025-02-07 21:17:16.775 [error] Activating extension vscode.merge-conflict failed due to an error:
+2025-02-07 21:17:16.775 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at z_.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9402)
+	at B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4460)
+	at B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4421)
+	at B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3877)
+	at new B0 (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3804)
+	at H0.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3366)
+	at H0.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3321)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2292
+	at Array.map (<anonymous>)
+	at H0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2280)
+	at H0.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2192)
+	at z_.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10628)
+	at z_.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15414)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16058
+2025-02-07 21:17:16.775 [error] Activating extension Postman.postman-for-vscode failed due to an error:
+2025-02-07 21:17:16.775 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at z_.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9402)
+	at B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4460)
+	at B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4421)
+	at B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3877)
+	at new B0 (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3804)
+	at H0.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3366)
+	at H0.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3321)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2292
+	at Array.map (<anonymous>)
+	at H0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2280)
+	at H0.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2192)
+	at z_.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10628)
+	at z_.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15414)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16058
+2025-02-07 21:17:16.775 [error] Activating extension ritwickdey.LiveServer failed due to an error:
+2025-02-07 21:17:16.775 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at z_.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12161)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9402)
+	at B0.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4460)
+	at B0.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4421)
+	at B0.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3877)
+	at new B0 (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3804)
+	at H0.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3366)
+	at H0.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:3321)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2292
+	at Array.map (<anonymous>)
+	at H0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2280)
+	at H0.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:2192)
+	at z_.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10628)
+	at z_.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15414)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16058
+2025-02-07 21:17:16.803 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at b.open (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983154)
+	at b.openRepository (/usr/share/code/resources/app/extensions/git/dist/main.js:2:980258)
+	at async n (/usr/share/code/resources/app/extensions/git/dist/main.js:2:893412) setContext undefined
+2025-02-07 21:17:16.803 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at s (/usr/share/code/resources/app/extensions/git/dist/main.js:2:982805)
+	at b.open (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983399)
+	at b.openRepository (/usr/share/code/resources/app/extensions/git/dist/main.js:2:980258)
+	at async n (/usr/share/code/resources/app/extensions/git/dist/main.js:2:893412) setContext undefined
+2025-02-07 21:17:16.804 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:961845)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at b.open (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983429)
+	at b.openRepository (/usr/share/code/resources/app/extensions/git/dist/main.js:2:980258)
+	at async n (/usr/share/code/resources/app/extensions/git/dist/main.js:2:893412) setContext undefined
+2025-02-07 21:17:16.804 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026176)
+	at O.o (/usr/share/code/resources/app/extensions/git/dist/main.js:2:893182)
+	at b.openRepository (/usr/share/code/resources/app/extensions/git/dist/main.js:2:980398)
+	at async n (/usr/share/code/resources/app/extensions/git/dist/main.js:2:893412) setContext undefined
+2025-02-07 21:17:16.842 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.getRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1035319)
+	at O._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046650)
+	at async O.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046053)
+	at async O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045104)
+	at async O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026165) setContext undefined
+2025-02-07 21:17:16.850 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.getRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1035308)
+	at async Promise.all (index 1)
+	at async O._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046608)
+	at async O.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046053)
+	at async O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045104)
+	at async O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026165) setContext undefined
+2025-02-07 21:17:16.854 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at s (/usr/share/code/resources/app/extensions/git/dist/main.js:2:982805)
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:982888)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046738)
+	at async O.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1046053)
+	at async O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045104)
+	at async O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026165) setContext undefined
+2025-02-07 21:17:16.854 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033401)
+	at O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033687)
+	at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956403)
+	at t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951299)
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074016)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026165) setContext undefined
+2025-02-07 21:17:16.854 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.status (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026165) setContext undefined
+2025-02-07 21:17:16.859 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033390)
+	at async O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033676)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956381)
+	at async t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951288) setContext undefined
+2025-02-07 21:17:16.860 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.getConfig (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1025702)
+	at O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033749)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956381)
+	at async t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951288) setContext undefined
+2025-02-07 21:17:16.862 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at b.setState (/usr/share/code/resources/app/extensions/git/dist/main.js:2:969483)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:972313
+	at <anonymous> setContext undefined
+2025-02-07 21:17:16.868 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033738)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956381)
+	at async t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951288) setContext undefined
+2025-02-07 21:17:16.868 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033401)
+	at O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033782)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956381)
+	at async t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951288) setContext undefined
+2025-02-07 21:17:16.873 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async O.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033390)
+	at async O.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1033771)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:956381)
+	at async t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951288) setContext undefined
+2025-02-07 21:17:16.873 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.getMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1027097)
+	at t.GitHistoryProvider.resolveHistoryItemRefsCommonAncestor (/usr/share/code/resources/app/extensions/git/dist/main.js:2:955392)
+	at g.getIncomingChanges (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890945)
+	at g.collectIncomingChangesFileDecorations (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890265)
+	at g.onDidChangeCurrentHistoryItemRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:889917)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:889628
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074093)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at t.GitHistoryProvider.onDidRunWriteOperation (/usr/share/code/resources/app/extensions/git/dist/main.js:2:952112) setContext undefined
+2025-02-07 21:17:16.877 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async t.GitHistoryProvider.resolveHistoryItemRefsCommonAncestor (/usr/share/code/resources/app/extensions/git/dist/main.js:2:955370)
+	at async g.getIncomingChanges (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890937)
+	at async g.collectIncomingChangesFileDecorations (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890254)
+	at async g.onDidChangeCurrentHistoryItemRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:889906) setContext undefined
+2025-02-07 21:17:16.877 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045035)
+	at O.diffBetween (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1026805)
+	at g.getIncomingChanges (/usr/share/code/resources/app/extensions/git/dist/main.js:2:891026)
+	at async g.collectIncomingChangesFileDecorations (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890254)
+	at async g.onDidChangeCurrentHistoryItemRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:889906) setContext undefined
+2025-02-07 21:17:16.878 [error] Canceled: Canceled
+	at new tT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at u (/usr/share/code/resources/app/extensions/git/dist/main.js:2:983034)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:983148
+	at mh.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1074171)
+	at D.B (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1045349)
+	at async g.getIncomingChanges (/usr/share/code/resources/app/extensions/git/dist/main.js:2:891004)
+	at async g.collectIncomingChangesFileDecorations (/usr/share/code/resources/app/extensions/git/dist/main.js:2:890254)
+	at async g.onDidChangeCurrentHistoryItemRefs (/usr/share/code/resources/app/extensions/git/dist/main.js:2:889906) setContext undefined
+2025-02-07 21:17:17.755 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.756 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.756 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.756 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.756 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.776 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.776 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.776 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.776 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.777 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.777 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.777 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.794 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.794 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.794 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.794 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.805 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.805 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.805 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.805 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.805 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.814 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.815 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.815 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.815 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.815 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.829 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.830 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.830 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.830 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.830 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.830 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.843 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.843 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.843 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.844 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.844 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.844 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.844 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.855 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.855 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.855 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.855 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.861 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.861 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.861 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.863 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.863 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.863 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.864 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.868 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.869 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.869 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.874 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.878 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.878 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.878 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.879 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.879 [error] Canceled (FileSystemError): Canceled
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9853)
+	at Object.createDirectory (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7391)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:2284
+	at async yw.o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1836)
+2025-02-07 21:17:17.885 [info] Extension host with pid 3644 exiting with code 0

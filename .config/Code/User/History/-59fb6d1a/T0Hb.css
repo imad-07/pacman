@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+  }
+
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    grid-template-rows: repeat(20, 25px);
+    gap: 0px;
+    border: 2px solid #000064;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .game-ui {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  #score, #lives {
+    font-size: 1.2rem;
+  }
+  .wall{
+    background-color: #1919A6;
+    background-size: cover;
+  }
+  .path{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .pellet {
+    width: 5px; 
+    height: 5px; 
+    background: url('./assets/images/coin.gif') no-repeat;
+    background-size: cover;
+  }
+  .powerpellet{
+    width: 15px;
+    height: 15px; 
+    background: url('./assets/images/coin.gif') no-repeat;
+    background-size: cover;
+  }
+  .pacman {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FFFF00;
+    position: absolute;
+    transition: transform 0.2s linear;
+    overflow: hidden; 
+}
+
+.pacman::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: translate(-50%, -50%);
+}
+
+.pacman::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+

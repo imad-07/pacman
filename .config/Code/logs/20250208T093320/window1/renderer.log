@@ -1,0 +1,21 @@
+2025-02-08 09:33:21.534 [info] Started local extension host with pid 2567.
+2025-02-08 09:33:25.238 [info] Settings Sync: Updating due to initialize
+2025-02-08 09:33:25.239 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.240 [info] Settings Sync: Authentication providers updated []
+2025-02-08 09:33:25.314 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.314 [info] Settings Sync: Authentication providers updated ["github"]
+2025-02-08 09:33:25.315 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.315 [info] Settings Sync: Authentication providers updated ["github"]
+2025-02-08 09:33:25.321 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.322 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-08 09:33:25.322 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.322 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-08 09:33:25.329 [info] Settings Sync: Updating due to declared authentication providers changed
+2025-02-08 09:33:25.330 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.330 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-08 09:33:25.330 [info] Settings Sync: Updating due to declared authentication providers changed
+2025-02-08 09:33:25.330 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:25.330 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-08 09:33:26.049 [info] [perf] Render performance baseline is 105ms
+2025-02-08 09:33:26.404 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-08 09:33:26.405 [info] Settings Sync: Authentication providers updated ["github","microsoft"]

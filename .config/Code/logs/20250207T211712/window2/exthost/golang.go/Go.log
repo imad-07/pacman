@@ -1,0 +1,172 @@
+2025-02-07 21:21:24.223 [info] Try to start language server - activation (enabled: true)
+2025-02-07 21:21:24.287 [info] Running language server gopls(v0.17.1/go1.23.4)
+2025-02-07 21:21:50.985 [info] Running checks...
+2025-02-07 21:21:50.986 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:21:51.366 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:21:51.366 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:21:51.366 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:21:51.366 [info] 
+2025-02-07 21:22:10.172 [info] Running checks...
+2025-02-07 21:22:10.172 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:22:10.338 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:22:10.338 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:22:10.338 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:22:10.338 [info] 
+2025-02-07 21:22:15.600 [info] Running checks...
+2025-02-07 21:22:15.600 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:22:15.773 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:22:15.773 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:22:15.773 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:22:15.773 [info] 
+2025-02-07 21:22:18.061 [info] Running checks...
+2025-02-07 21:22:18.061 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:22:18.220 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:22:18.220 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:22:18.220 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:22:18.220 [info] 
+2025-02-07 21:22:26.718 [info] Running checks...
+2025-02-07 21:22:26.718 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:22:26.958 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:22:26.958 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:22:26.958 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:22:26.958 [info] 
+2025-02-07 21:22:29.805 [info] Running checks...
+2025-02-07 21:22:29.805 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:22:29.978 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:22:29.978 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:22:29.978 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:22:29.978 [info] 
+2025-02-07 21:35:33.429 [info] Running checks...
+2025-02-07 21:35:33.429 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:33.593 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:33.593 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:35:33.593 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:35:33.593 [info] 
+2025-02-07 21:35:37.523 [info] Running checks...
+2025-02-07 21:35:37.523 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:37.671 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:37.671 [info] /home/imad-07/realtimeforum/server/service/wservice.go:75:37 data is not a type
+2025-02-07 21:35:37.671 [info] /home/imad-07/realtimeforum/server/service/wservice.go:77:6 message redeclared in this block
+2025-02-07 21:35:37.671 [info] 
+2025-02-07 21:35:39.192 [info] Running checks...
+2025-02-07 21:35:39.192 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:39.298 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:39.298 [info] /home/imad-07/realtimeforum/server/service/wservice.go:77:6 message redeclared in this block
+2025-02-07 21:35:39.298 [info] /home/imad-07/realtimeforum/server/service/wservice.go:78:10 message.Content undefined (type data.Message has no field or method Content)
+2025-02-07 21:35:39.298 [info] /home/imad-07/realtimeforum/server/service/wservice.go:79:10 message.Type undefined (type data.Message has no field or method Type) (compile)
+2025-02-07 21:35:39.298 [info] 
+2025-02-07 21:35:44.584 [info] Running checks...
+2025-02-07 21:35:44.584 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:44.709 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:44.709 [info] /home/imad-07/realtimeforum/server/service/wservice.go:77:6 message redeclared in this block
+2025-02-07 21:35:44.709 [info] /home/imad-07/realtimeforum/server/service/wservice.go:78:10 message.Content undefined (type data.Message has no field or method Content)
+2025-02-07 21:35:44.709 [info] /home/imad-07/realtimeforum/server/service/wservice.go:79:10 message.Type undefined (type data.Message has no field or method Type) (compile)
+2025-02-07 21:35:44.709 [info] 
+2025-02-07 21:35:49.941 [info] Running checks...
+2025-02-07 21:35:49.941 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:50.102 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:50.102 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:35:50.102 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:35:50.102 [info] 
+2025-02-07 21:35:57.701 [info] Running checks...
+2025-02-07 21:35:57.701 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:35:57.864 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:35:57.864 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:35:57.864 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:35:57.864 [info] 
+2025-02-07 21:36:12.890 [info] Running checks...
+2025-02-07 21:36:12.890 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:36:13.019 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:36:13.019 [info] /home/imad-07/realtimeforum/server/handlers/logouthanlder.go:34:17 not enough arguments in call to service.Notify
+2025-02-07 21:36:13.019 [info] 
+2025-02-07 21:36:19.055 [info] Running checks...
+2025-02-07 21:36:19.055 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:36:19.165 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:36:19.165 [info] /home/imad-07/realtimeforum/server/handlers/logouthanlder.go:34:26 cannot use message (variable of type shareddata.ChatMessage) as data.Message value in argument to service.Notify (compile)
+2025-02-07 21:36:19.165 [info] 
+2025-02-07 21:36:43.015 [info] Running checks...
+2025-02-07 21:36:43.015 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:36:43.163 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:36:43.163 [info] /home/imad-07/realtimeforum/server/service/wservice.go:90:59 undefined: shareddata.Message (compile)
+2025-02-07 21:36:43.163 [info] 
+2025-02-07 21:37:11.835 [info] Running checks...
+2025-02-07 21:37:11.835 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:37:11.924 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:37:11.924 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:37:11.924 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:37:11.924 [info] 
+2025-02-07 21:37:12.397 [info] Running checks...
+2025-02-07 21:37:12.397 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:37:12.559 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:37:12.559 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:37:12.559 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:37:12.559 [info] 
+2025-02-07 21:37:41.446 [info] Running checks...
+2025-02-07 21:37:41.446 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:37:41.543 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:37:41.543 [info] /home/imad-07/realtimeforum/server/handlers/logouthanlder.go:31:14 undefined: data (compile)
+2025-02-07 21:37:41.543 [info] 
+2025-02-07 21:37:54.409 [info] Running checks...
+2025-02-07 21:37:54.409 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:37:54.514 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:37:54.514 [info] /home/imad-07/realtimeforum/server/handlers/logouthanlder.go:34:26 cannot use message (variable of type shareddata.ChatMessage) as data.Message value in argument to service.Notify (compile)
+2025-02-07 21:37:54.514 [info] 
+2025-02-07 21:38:22.448 [info] Running checks...
+2025-02-07 21:38:22.448 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/service
+2025-02-07 21:38:22.636 [info] /home/imad-07/realtimeforum/server/service>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:38:22.636 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:2 this value of err is never used (SA4006)
+2025-02-07 21:38:22.636 [info] /home/imad-07/realtimeforum/server/service/react_service.go:16:9 New doesn't have side effects and its return value is ignored (SA4017)
+2025-02-07 21:38:22.636 [info] 
+2025-02-07 21:39:09.135 [info] Running checks...
+2025-02-07 21:39:09.135 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:39:09.237 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:39:09.237 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:20 undefined: username
+2025-02-07 21:39:09.237 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:181:17 undefined: username (compile)
+2025-02-07 21:39:09.237 [info] 
+2025-02-07 21:39:16.817 [info] Running checks...
+2025-02-07 21:39:16.817 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:39:16.917 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:39:16.917 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:20 undefined: username
+2025-02-07 21:39:16.917 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:181:17 undefined: username (compile)
+2025-02-07 21:39:16.917 [info] 
+2025-02-07 21:40:00.147 [info] Running checks...
+2025-02-07 21:40:00.147 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:00.248 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:00.248 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:36 Lo.db undefined (type Lo has no method db)
+2025-02-07 21:40:00.248 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:45 user.Value undefined (type shareddata.User has no field or method Value) (compile)
+2025-02-07 21:40:00.248 [info] 
+2025-02-07 21:40:09.436 [info] Running checks...
+2025-02-07 21:40:09.436 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:09.536 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:09.536 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:36 Lo.db undefined (type Lo has no method db)
+2025-02-07 21:40:09.536 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:45 user.U undefined (type shareddata.User has no field or method U) (compile)
+2025-02-07 21:40:09.536 [info] 
+2025-02-07 21:40:11.538 [info] Running checks...
+2025-02-07 21:40:11.538 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:11.661 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:11.661 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:36 Lo.db undefined (type Lo has no method db) (compile)
+2025-02-07 21:40:11.661 [info] 
+2025-02-07 21:40:17.341 [info] Running checks...
+2025-02-07 21:40:17.341 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:17.486 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:17.486 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:33 syntax error: unexpected comma, expected expression (compile)
+2025-02-07 21:40:17.486 [info] 
+2025-02-07 21:40:24.297 [info] Running checks...
+2025-02-07 21:40:24.297 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:24.420 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:24.420 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:35 syntax error: unexpected comma, expected name or ( (compile)
+2025-02-07 21:40:24.420 [info] 
+2025-02-07 21:40:30.652 [info] Running checks...
+2025-02-07 21:40:30.652 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:30.809 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:30.809 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:33 cannot use h.UserService (variable of type *service.UserService) as *sql.DB value in argument to service.GetUser (compile)
+2025-02-07 21:40:30.809 [info] 
+2025-02-07 21:40:31.682 [info] Running checks...
+2025-02-07 21:40:31.682 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:31.796 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:31.796 [info] /home/imad-07/realtimeforum/server/handlers/user_handler.go:179:47 syntax error: unexpected comma, expected name or ( (compile)
+2025-02-07 21:40:31.796 [info] 
+2025-02-07 21:40:33.117 [info] Running checks...
+2025-02-07 21:40:33.117 [info] Starting linting the current package at /home/imad-07/realtimeforum/server/handlers
+2025-02-07 21:40:33.433 [info] /home/imad-07/realtimeforum/server/handlers>Finished running tool: /home/imad-07/go/bin/staticcheck
+2025-02-07 21:40:33.433 [info] 

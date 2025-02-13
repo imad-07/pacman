@@ -1,0 +1,62 @@
+.grid{
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.pac-dot{
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.wall{
+    background-color: blue;
+}
+.power-pellet{
+    background-color: green;
+    border-radius: 10px;
+}
+.blinky{
+    background-size: cover;
+    background-image: url("assets/redghost/ghost_red.png");
+}
+.inky{
+    background-size: cover;
+    background-image: url("assets/blue/ghost_blue.png");
+}
+.clyde{
+    background-size: cover;
+    background-image: url("assets/greenghost/ghost_green.png");
+}
+.pinky{
+    background-size: cover;
+    background-image: url("assets/pinkghost/ghost_pink.png");
+}
+.pac-man{
+    background-size: cover;
+    animation: pacmanAnimation 0.3s infinite;
+}
+@keyframes pacmanAnimation {
+    0% {
+      background-image: url('./assets/pacman/pecboy_0.png');
+    }
+    33% {
+      background-image: url('./assets/pacman/pecboy_1.png');
+    }
+    66% {
+      background-image: url('./assets/pacman/pecboy_2.png');
+    }
+    100% {
+      background-image: url('./assets/pacman/pecboy_0.png'); /* Loop back to the first image */
+    }
+  }
+
+.ghost {
+    border: none;
+    background-color: white;
+}

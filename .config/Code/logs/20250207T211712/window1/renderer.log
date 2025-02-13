@@ -1,0 +1,4 @@
+2025-02-07 21:17:13.989 [info] Started local extension host with pid 3644.
+2025-02-07 21:17:15.436 [info] Settings Sync: Updating due to initialize
+2025-02-07 21:17:15.436 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-07 21:17:15.437 [info] Settings Sync: Authentication providers updated ["github","microsoft"]

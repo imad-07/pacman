@@ -1,0 +1,7 @@
+2025-02-10 15:33:30.893 [info] Started local extension host with pid 16290.
+2025-02-10 15:33:31.563 [info] Settings Sync: Updating due to initialize
+2025-02-10 15:33:31.563 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-10 15:33:31.563 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-10 15:33:40.708 [info] [perf] Render performance baseline is 19ms
+2025-02-10 15:33:43.750 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-10 15:33:43.751 [info] Settings Sync: Authentication providers updated ["github","microsoft"]

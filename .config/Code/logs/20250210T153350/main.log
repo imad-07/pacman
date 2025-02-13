@@ -1,0 +1,6 @@
+2025-02-10 15:33:50.685 [info] update#setState idle
+2025-02-10 15:34:23.526 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-10 15:34:23.527 [info] update#setState checking for updates
+2025-02-10 15:34:23.568 [info] update#setState available for download
+2025-02-10 15:34:43.342 [info] Extension host with pid 16577 exited with code: 0, signal: unknown.
+2025-02-10 15:34:43.361 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown

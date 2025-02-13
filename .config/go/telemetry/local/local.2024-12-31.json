@@ -1,0 +1,159 @@
+{
+ "Week": "2024-12-31",
+ "LastWeek": "",
+ "X": 0.2913661618459775,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {},
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/cgo",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "cgo/flag:dynimport": 4,
+    "cgo/flag:dynout": 4,
+    "cgo/flag:dynpackage": 4,
+    "cgo/flag:importpath": 12,
+    "cgo/flag:ldflags": 12,
+    "cgo/flag:objdir": 12,
+    "cgo/invocations": 16
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/flag:buildid": 249,
+    "compile/flag:c": 249,
+    "compile/flag:complete": 247,
+    "compile/flag:dwarf": 17,
+    "compile/flag:goversion": 249,
+    "compile/flag:importcfg": 249,
+    "compile/flag:lang": 249,
+    "compile/flag:nolocalimports": 249,
+    "compile/flag:o": 249,
+    "compile/flag:p": 249,
+    "compile/flag:pack": 249,
+    "compile/flag:std": 2,
+    "compile/flag:trimpath": 249,
+    "compile/invocations": 1597
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/hit": 49951,
+    "go/buildcache/miss": 392,
+    "go/buildcache/stdlib-recompiled": 3,
+    "go/env/flag:json": 37,
+    "go/goroot:other": 2004,
+    "go/invocations": 2004,
+    "go/list/flag:compiled": 548,
+    "go/list/flag:deps": 548,
+    "go/list/flag:e": 1094,
+    "go/list/flag:export": 548,
+    "go/list/flag:f": 1079,
+    "go/list/flag:find": 548,
+    "go/list/flag:json": 559,
+    "go/list/flag:m": 17,
+    "go/list/flag:mod": 6,
+    "go/list/flag:overlay": 207,
+    "go/list/flag:pgo": 548,
+    "go/list/flag:test": 548,
+    "go/list/flag:versions": 5,
+    "go/mod-tidy/flag:modfile": 247,
+    "go/mode:gopath": 689,
+    "go/mode:module": 1315,
+    "go/platform/host/linux/major-version:6": 2004,
+    "go/platform/host/linux/version:6-8": 2004,
+    "go/platform/target/goamd64:v1": 2004,
+    "go/platform/target/goarch:amd64": 2004,
+    "go/platform/target/goos:linux": 2004,
+    "go/subcommand:env": 43,
+    "go/subcommand:get": 5,
+    "go/subcommand:list": 1638,
+    "go/subcommand:mod-init": 1,
+    "go/subcommand:mod-tidy": 247,
+    "go/subcommand:run": 35,
+    "go/subcommand:version": 35,
+    "go/version/flag:m": 14
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "v0.17.1",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "gopls/client:vscode": 7,
+    "gopls/completion/latency:\u003c10ms": 401,
+    "gopls/completion/latency:\u003c50ms": 98,
+    "gopls/completion/len:0": 66,
+    "gopls/completion/len:\u003c=10": 310,
+    "gopls/completion/len:\u003e10": 123,
+    "gopls/completion/used:no": 518,
+    "gopls/completion/used:yes": 38,
+    "gopls/definition/latency:\u003c10ms": 6,
+    "gopls/gotoolchain:auto": 7,
+    "gopls/goversion:1.23": 7,
+    "gopls/hover/error-latency:\u003c10ms": 4,
+    "gopls/hover/latency:\u003c10ms": 687,
+    "gopls/telemetryprompt/attempts:0": 7
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/link",
+   "Version": "go1.23.4",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "link/flag:buildid": 33,
+    "link/flag:buildmode": 33,
+    "link/flag:extld": 33,
+    "link/flag:importcfg": 33,
+    "link/flag:o": 33,
+    "link/flag:s": 33,
+    "link/flag:w": 33,
+    "link/invocations": 93
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "github.com/golang/vscode-go/vscgo",
+   "Version": "v0.44.0",
+   "GoVersion": "go1.23.4",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "activation_latency:\u003c1s": 1,
+    "activation_latency:\u003c500ms": 6,
+    "inc_counters_duration:\u003c10ms": 7,
+    "inc_counters_num_input:\u003c2": 7
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

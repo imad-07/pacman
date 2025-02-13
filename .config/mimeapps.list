@@ -1,0 +1,5 @@
+[Default Applications]
+application/zip=engrampa.desktop
+
+[Added Associations]
+application/zip=engrampa.desktop;

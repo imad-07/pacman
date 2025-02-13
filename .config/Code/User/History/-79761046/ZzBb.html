@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer with Parallax</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #1a1a1a;
+        }
+
+        #game-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .parallax-layer {
+            position: absolute;
+            width: 300%;
+            height: 100%;
+            background-repeat: repeat-x;
+        }
+
+        #layer-back {
+            background-image: url('./just-created-a-background-for-my-game-im-a-beginner-v0-lv8kgjusouta1.webp');
+            z-index: 1;
+        }
+
+        #layer-mid {
+            background-image: url('midground.png');
+            z-index: 2;
+        }
+
+        #player {
+            position: absolute;
+            width: 288px;
+            height: 128px;
+            background-image: url('./wind_SpriteSheet_288x128.png');
+            transform-origin: center;
+            z-index: 1000;
+            left: 50%;
+            bottom: 100px;
+        }
+
+        .ground {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            background: #554633;
+            bottom: 0;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div class="parallax-layer" id="layer-back"></div>
+        <div class="parallax-layer" id="layer-mid"></div>
+        <div id="player"></div>
+        <div class="ground"></div>
+    </div>
+
+    <script>
+        class Player {
+            constructor() {
+                this.element = document.getElementById('player');
+                this.spriteWidth = 288;
+                this.spriteHeight = 128;
+                this.states = {
+                    idle    :   { frames    : 8 , row   : 0    , speed : 0.15,  isImune   :  false, canChangeState  : true  },
+                    run     :   { frames    : 8 , row   : 1    , speed : 0.2 ,  isImune   :  false, canChangeState  : true  },
+                    jump    :   { frames    : 2 , row   : 2    , speed : 0.1 ,  isImune   :  false, canChangeState  : true  }, 
+                    fall    :   { frames    : 2 , row   : 3    , speed : 0.1 ,  isImune   :  false, canChangeState  : true  }, 
+                    atack   :   { frames    : 26, row   : 8    , speed : 0.2 ,  isImune   :  false, canChangeState  : false },
+                   airatack :   { frames    : 7 , row   : 4    , speed : 0.2 ,  isImune   :  false, canChangeState  : false },
+                   takedmg  :   { frames    : 6 , row   : 11   , speed : 0.2 ,  isImune   :  false, canChangeState  : false },
+                   defend   :   { frames    : 8 , row   : 10   , speed : 0.2 ,  isImune   :  true , canChangeState  : false },
+                   spatack  :   { frames    : 30, row   : 9    , speed : 0.2 ,  isImune   :  true , canChangeState  : false },
+                   death    :   { frames    : 19, row   : 12   , speed : 0.2 ,  isImune   :  true , canChangeState  : false }
+                };
+                this.currentState = 'idle';
+                this.frame = 0;
+                this.direction = 1;
+                this.x = 0;
+                this.y = 0;
+                this.speed = 2;
+                this.isGrounded = true;
+                this.jumpForce = 10;
+                this.velocityY = 0;
+                this.gravity = 0.5;
+
+                this.keys = {
+                    ArrowRight: false,
+                    ArrowLeft: false,
+                    k: false,
+                    j: false,
+                    x: false
+                };
+            }
+
+            updateAnimation() {
+                const state = this.states[this.currentState];
+                this.frame = (this.frame + state.speed) % state.frames;
+                const frameIndex = Math.floor(this.frame);
+
+                this.element.style.backgroundPosition = `-${frameIndex * this.spriteWidth}px -${state.row * this.spriteHeight}px`;
+                this.element.style.transform = `scaleX(${this.direction})`;
+            }
+
+            updatePhysics() {
+                let moveX = 0;
+                if (this.keys.ArrowRight) moveX += this.speed;
+                if (this.keys.ArrowLeft) moveX -= this.speed;
+                if (this.states[this.currentState].canChangeState||this.frame==this.currentState.frames-1) {
+        
+                
+                if (moveX !== 0) {
+                    this.direction = Math.sign(moveX);
+                    this.currentState = 'run';
+                } else {
+                    this.currentState = 'idle';
+                }
+
+               
+                if (this.keys.k && this.isGrounded) {
+                    this.currentState = 'spatack';
+                }
+
+                if (this.keys.x && this.isGrounded) {
+                    this.velocityY = this.jumpForce;
+                    this.isGrounded = false;
+                }
+
+            }// Apply gravity
+                this.velocityY -= this.gravity;
+                this.y += this.velocityY;
+                if (!this.isGrounded) {
+                    if (this.velocityY > 0) {
+                        this.currentState = 'jump'; // Going up
+                    } else {
+                        this.currentState = 'fall'; // Falling down
+                    }
+                }
+                if (this.y <= 0) {
+                    this.y = 0;
+                    this.velocityY = 0;
+                    this.isGrounded = true;
+                }
+                if (this.keys.j ) {   
+                    if (this.isGrounded) {
+                      this.currentState = 'atack';  
+                    }else{                        
+                        this.currentState='airatack'
+                    }
+                    
+                }
+                this.x += moveX;
+                this.element.style.left = `${50 + this.x}px`;
+                this.element.style.bottom = `${100 + this.y}px`;
+            }
+        }
+
+        class ParallaxController {
+            constructor() {
+                this.layers = {
+                    back: { element: document.getElementById('layer-back'), speed: 0.5 },
+                    mid: { element: document.getElementById('layer-mid'), speed: 0.8 }
+                };
+                this.cameraX = 0;
+            }
+
+            update(cameraX) {
+                Object.values(this.layers).forEach(layer => {
+                    const offset = -cameraX * layer.speed;
+                    layer.element.style.backgroundPositionX = `${offset}px`;
+                });
+            }
+        }
+
+        // Game initialization
+        const player = new Player();
+        const parallax = new ParallaxController();
+        let lastTime = 0;
+
+        // Input handling
+        document.addEventListener('keydown', (e) => {
+            if (e.key in player.keys) {
+                player.keys[e.key] = true;
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener('keyup', (e) => {
+            if (e.key in player.keys) {
+                player.keys[e.key] = false;
+                e.preventDefault();
+            }
+        });
+
+        // Game loop
+        const gameLoop=(timestamp)=> {
+            lastTime = timestamp;
+            player.updatePhysics();
+            player.updateAnimation();
+            parallax.update(player.x);
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Start the game
+        requestAnimationFrame(gameLoop);
+    </script>
+</body>
+</html>

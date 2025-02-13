@@ -1,0 +1,13 @@
+2025-02-07 21:17:13.888 [info] Started local extension host with pid 3645.
+2025-02-07 21:17:15.126 [info] Settings Sync: Updating due to initialize
+2025-02-07 21:17:15.131 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-07 21:17:15.131 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-07 21:17:16.538 [info] [perf] Render performance baseline is 90ms
+2025-02-07 21:18:45.028 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-07 21:20:06.418 [info] Started local extension host with pid 5057.
+2025-02-07 21:20:06.938 [info] Settings Sync: Updating due to initialize
+2025-02-07 21:20:06.939 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-07 21:20:06.939 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-07 21:20:07.933 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2025-02-07 21:20:07.934 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2025-02-07 21:20:09.029 [info] [perf] Render performance baseline is 21ms

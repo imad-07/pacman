@@ -1,0 +1,76 @@
+package modules
+
+import (
+	"database/sql"
+	"encoding/json"
+	"fmt"
+	"net/http"
+
+	"forum/app/modules/errors"
+)
+
+type Connection struct {
+	Resp           http.ResponseWriter
+	Req            *http.Request
+	Path           []string
+	InternalUserId int
+}
+
+func (conn *Connection) IsAuthenticated(forumDB *sql.DB) bool {
+	cookie, err := conn.Req.Cookie("token")
+	if err != nil || cookie.Value == "" {
+
+		conn.Error(errors.HttpUnauthorized)
+		return false
+	}
+
+	err = forumDB.QueryRow("SELECT internal_id FROM users WHERE token = ?", cookie.Value).Scan(&conn.InternalUserId)
+	if err != nil {
+		if err == sql.ErrNoRows {
+			conn.Error(errors.HttpUnauthorized)
+			return false
+		}
+		conn.Error(errors.HttpInternalServerError)
+		return false
+	}
+
+	return true
+}
+
+func (conn *Connection) NewError(httpStatus, code int, message, details string) {
+	httpError := errors.HttpError{
+		Code:    code,
+		Message: message,
+		Details: details,
+		Status:  httpStatus,
+	}
+
+	sendHttpError(conn, &httpError)
+}
+
+func (conn *Connection) Error(httpError *errors.HttpError) {
+	sendHttpError(conn, httpError)
+}
+
+func (conn *Connection) Respond(data any) {
+	jsonResult, err := json.Marshal(data)
+	if err != nil {
+		conn.Error(errors.HttpInternalServerError)
+		return
+	}
+	conn.Resp.Header().Set("Content-Type", "application/json")
+	conn.Resp.Write(jsonResult)
+}
+
+func sendHttpError(conn *Connection, httpError *errors.HttpError) {
+	conn.Resp.Header().Set("Content-Type", "application/json")
+	conn.Resp.WriteHeader(httpError.Status)
+
+	jsonError, err := json.Marshal(httpError)
+	if err != nil {
+		conn.Resp.Write([]byte(httpError.Message))
+		return
+	}
+
+	conn.Resp.Write(jsonError)
+}
